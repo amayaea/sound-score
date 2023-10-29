@@ -1,0 +1,5 @@
+dist
+node_modules
+yarn-error.log
+# you should add that
+# .env
