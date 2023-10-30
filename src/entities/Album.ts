@@ -1,7 +1,8 @@
 import { Entity, PrimaryKey, Property } from "@mikro-orm/core";
+import { BaseEntity } from "./BaseEntity";
 
 @Entity()
-export class Album {
+export class Album extends BaseEntity {
 
   @PrimaryKey()
   _id!: number;
